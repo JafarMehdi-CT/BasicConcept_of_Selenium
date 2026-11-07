@@ -32,8 +32,8 @@ public class Ex5_ChildBrowserPopup
         driver.switchTo().window(childWindowId);
 
         driver.findElement(By.xpath("(//span[@class='menu-text'])[22]")).click();
-
         Thread.sleep(3000);
+
         driver.quit();
 
     }
