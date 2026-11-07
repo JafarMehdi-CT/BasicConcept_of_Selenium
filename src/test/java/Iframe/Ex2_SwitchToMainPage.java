@@ -34,6 +34,7 @@ public class Ex2_SwitchToMainPage
 
        driver.switchTo().defaultContent();
        driver.findElement(By.xpath("//span[text()='File']")).click();
+       driver.quit();
 
 
 

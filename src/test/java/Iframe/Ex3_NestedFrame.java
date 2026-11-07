@@ -20,7 +20,6 @@ public class Ex3_NestedFrame
 
        //Switch to left frame
         driver.switchTo().frame("frame-left");
-
         String text = driver.findElement(By.tagName("body")).getText();
         System.out.println(text);
 
@@ -29,7 +28,6 @@ public class Ex3_NestedFrame
 
         // Switch to middle frame
         driver.switchTo().frame("frame-middle");
-
         String text1 = driver.findElement(By.id("content")).getText();
         System.out.println(text1);
 
@@ -38,7 +36,6 @@ public class Ex3_NestedFrame
 
         // Switch to right frame
         driver.switchTo().frame("frame-right");
-
         String text2 = driver.findElement(By.tagName("body")).getText();
         System.out.println(text2);
 
